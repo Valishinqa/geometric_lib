@@ -1,12 +1,29 @@
 # Geometric library
 The project provides simple functions for calculating the area and perimeter of a circle and square.
+
 ## Functions
 ### The module circle.py
 - area(r): Calculates the area of a circle based on radius r.
 - perimeter(r): Calculates the length of a circle based on the radius r.
+
 ### The module square.py
 - area(a): Calculates the area of a square with side a.
 - perimeter(a): Calculates the perimeter of a square with side a.
+
+## Examples
+### The module circle.py
+~~python
+ radius = 5
+ print(f"The area of the circle: {area(radius)}")
+ print(f"Circle length {perimeter(radius)}")
+~~
+### The module square.py
+~~python
+ side = 4
+ print(f"Square area: {area(side)}")
+ print(f"The perimeter of the square: {perimeter(side)}")
+~~
+
 ## Math formulas
 ### Area
 - Circle: S = πR²
