@@ -35,10 +35,16 @@ The project provides simple functions for calculating the area and perimeter of 
 - Rectangle: P = 2a + 2b
 - Square: P = 4a
 
-## Commit history
--commit c6ee140ab7b11f3845986e5090a46edba6fb941b Fix examples of function calls
--commit b6a3f6012e66e2da3ad9e5299260b0ccce24d03a Add examples of function calls
--commit f1afd01d6e9883fd15afb087f20b075729363279 update readme.md Add description of functions
--commit c1863f8a210d7248a1b896a60e9fa2b057089b2a add documentation in circle.py and square.py
+## Commit History
 
+### [c6ee140] - Fix examples of function calls
 
+### [b6a3f60] - Add examples of function calls
+
+### [f1afd01] - Update README.md
+- Added a description of the functions to the documentation
+- Updated the structure README.md
+
+### [c1863f8] - Add documentation
+- Added documentation to `circle.py `
+- Added documentation to `square.py `
