@@ -14,14 +14,14 @@ The project provides simple functions for calculating the area and perimeter of 
 ### The module circle.py
 ```python
  radius = 5
- print(f"The area of the circle: {area(radius)}")
- print(f"Circle length {perimeter(radius)}")
+ print(f"The area of the circle: {area(radius)}") # Output: 25 * Pi (~78.5)
+ print(f"Circle length {perimeter(radius)}") # Output: 10 * Pi (~31.4)
 ```
 ### The module square.py
 ```python
  side = 4
- print(f"Square area: {area(side)}")
- print(f"The perimeter of the square: {perimeter(side)}")
+ print(f"Square area: {area(side)}") # Output: 16
+ print(f"The perimeter of the square: {perimeter(side)}") # Output: 16
 ```
 
 ## Math formulas
