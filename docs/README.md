@@ -35,6 +35,27 @@ The project provides simple functions for calculating the area and perimeter of 
 - Rectangle: P = 2a + 2b
 - Square: P = 4a
 
+## Unit tests
+
+The project contains unit tests for both modules:
+
+- `test_square.py` — tests for functions in `square.py` (area and perimeter of a square).
+- `test_circle.py` — tests for functions in `circle.py` (area and perimeter of a circle).
+
+Tests are written using the standard Python `unittest` module.  
+Each test class checks that the functions correctly implement the corresponding math formulas for area and perimeter.
+
+## How to run tests
+
+From the project root, run:
+
+- python -m unittest test_square
+- python -m unittest test_circle
+
+or run all tests automatically discovered in files named `test_*.py`:
+- python -m unittest discover
+undefined
+
 ## Commit History
 
 ### [c6ee140](https://github.com/username/repo/commit/c6ee140ab7b11f3845986e5090a46edba6fb941b) - Fix examples of function calls
@@ -48,3 +69,7 @@ The project provides simple functions for calculating the area and perimeter of 
 ### [c1863f8](https://github.com/username/repo/commit/c1863f8a210d7248a1b896a60e9fa2b057089b2a) - Add documentation
 - Added documentation to `circle.py `
 - Added documentation to `square.py `
+
+### [9c4fbb7](https://github.com/Valishinqa/cpp_one/commit/9c4fbb72c2dd4cd1126af67e1d772e2d3362e574) - Adding tests for circle.py
+
+### [fef9cfd](https://github.com/Valishinqa/cpp_one/commit/fef9cfd8fc614f1dbb69e7d81ed8f4bcfa8e962a) - Adding tests for square.py
